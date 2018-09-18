@@ -9,10 +9,10 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    printf("sum of array element:");
+    printf("product of array element:");
     for(i=1;i<=n;i++)
     {
-       sum=sum+a[i];
+       sum=sum*a[i];
     }
     for(i=0;i<n;i++)
     printf("sum=%d",sum);
